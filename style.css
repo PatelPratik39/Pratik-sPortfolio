@@ -10,11 +10,25 @@ ul {
     font-size: x-large;
     /* padding-right: 30px; */
 }
-
+main {
+    padding-top: 85;
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    display: block;
+}
+/* * {
+    box-sizing: border-box;
+} */
 li {
     float: right;
 }
-
+h1{
+    font-size: x-large;
+}
 li a {
     display: inline-block;
     color: white;
@@ -26,6 +40,7 @@ li a:hover {
     background-color: yellowgreen;
 }
 .nav {
+    position: 0;
     box-shadow: 0 0 12px -2px black;
     position: fixed;
     left: 0;
@@ -44,6 +59,12 @@ li a:hover {
     padding-left: 30px;
     padding-right: 30px;
 }
+.profilePic {
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin: 10px 0 10px 10px;
+}
 footer {
     background-color: #333333;
     color: aliceblue;
@@ -60,4 +81,9 @@ footer {
 }
 footer a {
     margin: 0 25px;
+}
+.media-link{
+    height: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
