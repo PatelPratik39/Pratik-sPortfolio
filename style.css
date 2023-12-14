@@ -10,9 +10,9 @@ ul {
     font-size: x-large;
     /* padding-right: 30px; */
 }
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 li {
     float: right;
 }
@@ -116,4 +116,34 @@ main .quote {
     font-family:'sans-serif';
     /* filter: drop-shadow(20px 20px 10px white);   */
 }
+.header4{
+    text-align: left;
+}
+.p{
+text-align: left;
+}
+.about-header {
+    font-weight: 300;
+    font-size: 2rem;
+    filter: drop-shadow(20px 20px 10px black);
+}
+.about-img{
+    height: 128px;
+}
+.about-section{
+    float: right;
+    margin: 0 24px 24px 24px;
+}
+.about-img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 300px;
+        width: 300px;
+        float: right;
+        margin: 10px 0 10px 10px;
+        filter: drop-shadow(20px 20px 10px black);
+        display: block;
 
+    /* overflow-x: ;
+    overflow-y: ; */
+}
