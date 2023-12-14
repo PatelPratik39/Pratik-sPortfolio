@@ -1,2 +1,2 @@
-let str = "Hello Full Stack Academy!!!"
-alert(str);
+// let str = "Hello Full Stack Academy!!!"
+// alert(str);
