@@ -29,7 +29,7 @@ li a {
 li a:hover {
     background-color: yellowgreen;
 }
-.nav {
+.nav { 
     position: 0;
     box-shadow: 0 0 12px -2px black;
     position: fixed;
@@ -41,9 +41,9 @@ li a:hover {
     display: flex;
     height: 80px;
     padding: 10px;
-    padding: auto;
+    /* padding: auto;
     margin: auto;
-    display: flex;
+    display: flex; */
     font-family: sans-serif;
     justify-content: space-between;
     padding-left: 30px;
@@ -55,7 +55,7 @@ li a:hover {
     float: right;
     margin: 10px 0 10px 10px;
     filter: drop-shadow(20px 20px 10px black);
-
+    display: block;
 }
 footer {
     background-color: #333333;
@@ -72,10 +72,10 @@ footer {
     display: block;
 }
 footer a {
-    margin: 0 25px;
+    margin: 0 30px;
 }
 .media-link{
-    height: 3rem;
+    height: 4rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -111,3 +111,8 @@ main .quote {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
 }
+.header2 {
+    font-family:'sans-serif';
+    /* filter: drop-shadow(20px 20px 10px white);   */
+}
+
