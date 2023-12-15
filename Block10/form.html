@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      p:hover {
+        background-color: orange;
+      }
+      li:nth-child(even) {
+        color: green;
+      }
+      section {
+        height: 100;
+      }
+
+      heading {
+        height: calc(100% - 15px);
+      }
+    </style>
+    <title>Form tutorial</title>
+  </head>
+  <body>
+    <section>
+      <heading>Hello World!!</heading>
+      This is the section outside of the header
+    </section>
+    <h1>Form Follows Function</h1>
+    <p>Please fill out the form below</p>
+    <form style="background-color: rgb(170, 9, 149) !important">
+      <lable for="text">Text :</lable>
+      <input type="text" value="text" />
+      <ol>
+        <li>cookie</li>
+        <li>cake</li>
+        <li>pie</li>
+        <li>pudding</li>
+      </ol>
+      <br /><br />
+      <lable for="Muffin">Muffin</lable>
+      <input type="radio" value="muffin" /> <br /><br />
+      <lable for="Cupcake">Cupcake</lable>
+      <input type="radio" value="Cupcake" /> <br /><br />
+      <lable for="Brownie">Brownie</lable>
+      <input type="radio" value="Brownie" /> <br /><br />
+      <input type="file" /> <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
