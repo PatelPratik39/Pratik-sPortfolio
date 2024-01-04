@@ -7,6 +7,7 @@ This is my Portfolio/Resume using JavaScript, HTML, CSS
     - Portfolio.html
     - About.html
     - index.html push to th personal website
+    -  contact.html - contact page with readMe updates
  # Picasso Painting
     - created 3 grids using CSS
     - created a form to go to next page
