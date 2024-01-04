@@ -90,9 +90,9 @@ footer a {
     font-size: 25px;
     display: block;
 }
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 main .quote {
     font-family: 'Satisfy', cursive;
     color: aliceblue;
@@ -157,9 +157,9 @@ text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
 }
-.project-content{
+/* .project-content{
 
-}
+} */
 .portfolio-img {
     overflow-clip-margin: content-box;
     overflow: clip;
@@ -177,4 +177,45 @@ text-align: left;
     box-shadow: 0 3px 6px -2px #ccc;
     margin: 2em auto;
     padding: 1em;
+}
+form {
+    padding-top: 5%;
+    font-size: 25px;
+    max-width: 660px;
+    margin: auto;
+    display: block;
+    color: white;
+}
+.formH1 {
+    padding-top: 5px;
+    font-size: 48px;
+    filter: drop-shadow(20px 20px 10px black);
+}
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 10px;
+    filter: drop-shadow(20px 20px 10px black);
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    filter: drop-shadow(20px 20px 10px black);
+}
+.submit {
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background:green;
+    box-shadow: 0 3px 6px -2px #ccc;
+    filter: drop-shadow(20px 20px 10px black);
+}
+.nameContact{
+    filter: drop-shadow(20px 20px 10px black);
+}
+.messageContact {
+    filter: drop-shadow(20px 20px 10px black);
 }
