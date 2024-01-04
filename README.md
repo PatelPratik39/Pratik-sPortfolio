@@ -15,4 +15,7 @@ This is my Portfolio/Resume using JavaScript, HTML, CSS
         * iPad: 1024 x 768
         * Mobile: 480 x 320
     - New page can be seen cohort page
+        # Created User friendly Page
+        # Created a contact form using form Tag
+        # added some CSS selectors
     
