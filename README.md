@@ -19,4 +19,10 @@ This is my Portfolio/Resume using JavaScript, HTML, CSS
         # Created User friendly Page
         # Created a contact form using form Tag
         # added some CSS selectors
+
+# Contact page
+    - created Contact.html page
+    - created success.html page
+    - created javascript.js file 
+    - created success.js file
     
